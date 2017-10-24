@@ -1,10 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+      <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
     </div>
     <div class="col-md-6">
-      <p align="center"><img src="https://github.com/lorenzhahaha/Lavada/blob/master/public/lavada-icon.png" width="200px" height="200px"></p>     
+      <img src="https://github.com/lorenzhahaha/Lavada/blob/master/public/lavada-icon.png" width="200px" height="200px">    
     </div>  
   </div> 
 </div>
