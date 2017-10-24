@@ -1,4 +1,13 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+    </div>
+    <div class="col-md-6">
+      <p align="center"><img src="https://github.com/lorenzhahaha/Lavada/blob/master/public/lavada-icon.png" width="200px" height="200px"></p>     
+    </div>  
+  </div> 
+</div>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
