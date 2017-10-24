@@ -1,17 +1,13 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
-    </div>
-    <div class="col-md-6">
-      <img src="https://github.com/lorenzhahaha/Lavada/blob/master/public/lavada-icon.png" width="200px" height="200px">    
+      <p align="center"><img src="https://github.com/lorenzhahaha/Lavada/blob/master/public/lavada-icon.png" width="200px" height="200px"></p>    
     </div>  
   </div> 
 </div>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
