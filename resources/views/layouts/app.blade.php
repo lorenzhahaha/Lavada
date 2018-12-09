@@ -46,7 +46,7 @@
 
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            
+
                         @else
                             <li class="collapse page-scroll sign-in">
                                 <a href="#" onclick="event.preventDefault();
@@ -89,6 +89,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('template/vendor/jquery/jquery.js') }}"></script>
     <script src="{{ asset('template/vendor/jquery/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('template/vendor/js/jqBootstrapValidation.js') }}"></script>
     <script src="{{ asset('template/vendor/js/contact_me.js') }}"></script>
