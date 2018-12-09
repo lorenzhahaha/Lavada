@@ -49,7 +49,7 @@
     </div>
 
 @if($count_cart != 0)
-    <?php 
+    <?php
     	$x = 1;
     ?>
     <div class="w3-center">
@@ -68,7 +68,7 @@
 
 	<?php $total_price = 0; ?>
 	@foreach ($carts as $cart)
-		<?php 
+		<?php
 			$each_price = $cart -> product_price * $cart -> product_quantity;
 			$total_price += $each_price;
 		?>
@@ -85,7 +85,7 @@
 		        <input type="hidden" name="upload" value="1">
 		        <!-- The value property holds the business email -->
 		        <input type="hidden" name="business" value="lorenzflorentino19@gmail.com">
-		        
+
 		        <!-- PRODUCT INFO -->
 		        @foreach ($carts as $cart)
 		            <?php $cart_products_number ++; ?>
@@ -98,8 +98,8 @@
 		            <input type="hidden" name="shipping_{{ $cart_products_number }}" value="1.75">
 		            <input type="hidden" name="tax_{{ $cart_products_number }}" value="0.12">
 
-		            <input type="hidden" name="return" id="cancel_return" value="http://localhost:8000">
-		            <input type="hidden" name="cancel_return" id="cancel_return" value="http://localhost:8000/show">
+		            <input type="hidden" name="return" id="cancel_return" value="http://lavada.shop/home">
+		            <input type="hidden" name="cancel_return" id="cancel_return" value="http://lavada.shop/home">
 		        @endforeach
 
 		        <!-- To implement in live, remove 'sandbox'. -->
@@ -135,7 +135,7 @@
 		  			{{ csrf_field() }}
 						<div class="input-group col-md-7">
 			  				<span class="input-group-addon"> Number of Quantities </span>
-			  				
+
 			  				<input type="number" min="0" class="form-control size" name="product_quantity" value="{{ $cart -> product_quantity }}">
 			  				<span class="input-group-btn">
 			  					<input type="hidden" name="customer_id" value="{{ Auth::user()->id  }}">
@@ -248,15 +248,15 @@ function showDivs(n) {
 var i;
 var x = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("choices");
-	if (n > x.length) {slideIndex = 1}    
+	if (n > x.length) {slideIndex = 1}
 	if (n < 1) {slideIndex = x.length}
 	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";  
+		x[i].style.display = "none";
 }
 	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" btn btn-warning", "");
 }
-	x[slideIndex-1].style.display = "block";  
+	x[slideIndex-1].style.display = "block";
 	dots[slideIndex-1].className += " btn btn-warning";
 }
 </script>
